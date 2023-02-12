@@ -1,0 +1,187 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+#title {
+    text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat";
+    font-weight: bold;
+
+}
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+.big-heading{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+.image {
+    /* width: 20%; */
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+#features{
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1; 
+}
+
+#features .container-fluid{
+    padding: 7% 5%;
+}
+
+.feature-title{
+    font-size: 3rem;
+}
+
+.features-box{
+    padding: 4.5%;
+} 
+
+p{
+    color: rgb(99, 98, 98);
+}
+
+.icon{
+    color : palevioletred;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: orange;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    background-color: bisque;
+    width: 15%;
+    margin: 20px 20px 50px;
+    padding: 10px;
+    box-shadow: rgb(72, 0, 29) 4px 4px 4px 4px;
+    border-radius: 4px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.pricing-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.card{
+    background-color: whitesmoke;
+    
+    margin: 30px;
+    padding: 25px 25px 25px 25px;
+
+}
+
+#pricing {
+    padding: 100px;
+}
+
+@media (max-width:1000px){
+
+    #title{
+        text-align: center;
+    }
+
+    .image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta{
+    padding: 7% 15% 7% 15%;
+}
+
+.cta-heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    /* padding-top: 20px; */
+    padding-bottom: 200px;
+}
+
+.btn-cta{
+    margin: auto 10px auto 10px;
+    
+}
+
+#footer{
+    padding: 7% 15% 7% 15%;
+    
+}
+
+.copy{
+    font-weight: bold;
+}
+
+.btn-footer{
+    margin-bottom: 20px;
+    color: #ff4c68;
+}
